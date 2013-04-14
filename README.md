@@ -29,6 +29,30 @@ work.
 
 # Install
 
+First clone `auto-complete` into the `tmp` folder:
+
+```
+$ cd /tmp
+$ git clone https://github.com/auto-complete/auto-complete
+```
+
+In Emacs, execute the following:
+
+```
+M-x load-file
+```
+
+and load `/tmp/auto-complete/etc/install.el`.
+
+The installation process finally asks you to copy the following in your `.emacs` file:
+
+```
+(require 'auto-complete-config)
+(ac-config-default)
+```
+
+`eval-buffer` or restart Emacs, and that’s it!
+
 # User Manual
 
 [Auto-Complete User Manual](doc/manual.html)
