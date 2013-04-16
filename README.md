@@ -21,7 +21,7 @@ work.
 
 ![](doc/ac-fuzzy.png "Fuzzy Completion")
 
-![](doc/ac-isearch.png "Increamental Search")
+![](doc/ac-isearch.png "Incremental Search")
 
 # Demo Video
 
@@ -29,11 +29,13 @@ work.
 
 # Install
 
-First clone `auto-complete` into the `tmp` folder:
+First clone `auto-complete` into the `tmp` folder, and init the sub-modules:
 
 ```
 $ cd /tmp
 $ git clone https://github.com/auto-complete/auto-complete
+$ cd auto-complete
+$ git submodule init; git submodule update
 ```
 
 In Emacs, execute the following:
