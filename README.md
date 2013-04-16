@@ -55,7 +55,7 @@ The installation process finally asks you to copy the following in your `.emacs`
 
 # User Manual
 
-[Auto-Complete User Manual](doc/manual.html)
+[Auto-Complete User Manual](doc/manual.md)
 
 # Development
 
